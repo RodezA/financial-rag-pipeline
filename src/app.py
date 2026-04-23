@@ -5,6 +5,10 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import streamlit as st
 
+for _key in ("OPENAI_API_KEY", "ANTHROPIC_API_KEY", "QDRANT_API_KEY"):
+    if _key in st.secrets and not os.environ.get(_key):
+        os.environ[_key] = st.secrets[_key]
+
 from src.pipeline import RAGPipeline
 
 st.set_page_config(page_title="Financial RAG", layout="wide")
