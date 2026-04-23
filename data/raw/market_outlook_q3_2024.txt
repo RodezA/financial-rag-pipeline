@@ -1,0 +1,108 @@
+ATLAS RESEARCH GROUP
+FINANCIAL MARKETS OUTLOOK — Q3 2024
+Published: July 8, 2024
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MACROECONOMIC OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The U.S. economy entered the second half of 2024 on solid footing despite persistent cross-currents. Real GDP grew at an annualized rate of 2.8% in Q1 2024 and an estimated 2.3% in Q2 2024, above the Federal Reserve's estimated long-run potential growth rate of 1.8%. The unemployment rate edged up to 4.1% in June 2024 from 3.7% at year-end 2023, a modest cooling that the Fed has characterized as consistent with a "soft landing."
+
+The headline Consumer Price Index (CPI) moderated to +3.0% year-over-year in June 2024, down from +3.4% in January. Core PCE — the Fed's preferred inflation measure — stood at +2.6% in May 2024. While inflation has declined meaningfully from the +9.1% peak in June 2022, the "last mile" toward the 2.0% target has proven more persistent than many market participants anticipated at the start of the year.
+
+The Federal Open Market Committee (FOMC) held the federal funds rate at 5.25%–5.50% at its June 2024 meeting. Fed Chair Jay Powell stated that the committee would need "greater confidence that inflation is moving sustainably toward 2%" before beginning to reduce rates. Fed funds futures markets as of June 28, 2024 implied a 72% probability of at least one 25 bps cut by the September 2024 meeting.
+
+ATLAS BASE CASE: We expect the Fed to deliver its first rate cut in September 2024 (25 bps), followed by two additional cuts in Q4 2024, bringing the federal funds rate to 4.50%–4.75% by year-end 2024. We assign a 65% probability to this base case.
+
+UPSIDE SCENARIO (20% probability): Inflation decelerates faster than expected, enabling three additional cuts in H2 2024 and a year-end rate of 4.25%–4.50%.
+
+DOWNSIDE SCENARIO (15% probability): A reacceleration of inflation — potentially triggered by energy price spikes, renewed supply chain disruptions, or fiscal stimulus — forces the Fed to maintain rates through year-end 2024 or even resume hiking.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EQUITY MARKETS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The S&P 500 returned +15.3% in H1 2024, continuing the strong rally that began in November 2023. As of June 28, 2024, the index traded at a forward P/E multiple of 21.4x, above the 10-year historical average of 17.6x. Market concentration remains elevated: the top 10 holdings in the S&P 500 account for approximately 35% of index weight, the highest level since the late 1990s.
+
+Earnings growth has been the primary driver of equity returns in H1 2024. S&P 500 operating EPS for the trailing twelve months through Q1 2024 totaled $218.40, up 8.1% year-over-year. ATLAS Research projects full-year 2024 operating EPS of $243.50, representing 11.5% growth and implying a year-end fair value range of $5,200–$5,500 on the S&P 500.
+
+Sector Performance — H1 2024 (Total Return):
+  Technology:           +28.4%
+  Communication Svcs:   +26.1%
+  Utilities:            +10.2%
+  Financial Services:   +10.0%
+  Consumer Discretionary: +6.1%
+  Healthcare:            +5.4%
+  Industrials:           +9.8%
+  Materials:             +7.2%
+  Energy:                +5.7%
+  Consumer Staples:      +3.6%
+  Real Estate:           -4.1%
+
+Financial Services Sector: The financial services sector returned +10.0% in H1 2024, roughly in line with the broad market ex-mega-cap tech. Regional banks lagged large-cap banks, returning approximately +3.5% versus +12.8% for the KBW Large Bank Index. Large-bank outperformance reflected better net interest income resilience and stronger fee-income generation from investment banking (advisory volumes recovered significantly in H1 2024 vs. the depressed 2023 levels).
+
+Fintech: Publicly traded fintech companies returned an average of +22.6% in H1 2024, outperforming both the broad market and the traditional financial services sector. Accelerating payment volume growth, improving unit economics, and an inflection in profitability among mid-cap fintechs drove the rerating.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FIXED INCOME MARKETS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+U.S. Treasury Yields (as of June 28, 2024):
+  2-Year:    4.71%   (vs. 4.43% at 12/31/2023)
+  5-Year:    4.36%   (vs. 3.84% at 12/31/2023)
+  10-Year:   4.36%   (vs. 3.88% at 12/31/2023)
+  30-Year:   4.51%   (vs. 4.03% at 12/31/2023)
+
+The yield curve (2yr–10yr) remains inverted at approximately -35 basis points as of the end of Q2 2024, though the inversion has narrowed from -87 bps at its December 2023 peak. ATLAS expects the curve to un-invert by mid-2025 as short rates fall faster than long rates.
+
+Investment-Grade Credit:
+  Bloomberg U.S. Aggregate Bond Index:   -0.7% (H1 2024, total return)
+  Option-Adjusted Spread (IG):           90 bps (vs. 99 bps at year-end 2023)
+  Investment-Grade issuance H1 2024:     $848B (record pace)
+
+High-Yield Credit:
+  ICE BofA U.S. High Yield Index:        +2.6% (H1 2024, total return)
+  Option-Adjusted Spread (HY):           311 bps (near post-COVID tights)
+  Default Rate (trailing 12 months):     2.9% (vs. 4.1% peak in Q1 2024)
+  High-Yield issuance H1 2024:           $194B (+41% vs. H1 2023)
+
+The high-yield default rate has begun to decline from its early-2024 peak as the backlog of LME-driven restructurings is absorbed. ATLAS forecasts the trailing-12-month default rate will decline to approximately 2.0%–2.5% by year-end 2024, assuming no material macro deterioration.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PRIVATE CREDIT MARKET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Total private credit AUM reached an estimated $1.7 trillion globally as of Q1 2024, according to Preqin data, up from $1.4 trillion at end-2022. The asset class has continued to attract institutional capital as investors seek floating-rate, yield-enhancing alternatives to public markets.
+
+Key trends in Q2 2024:
+- Spreads on direct lending (middle market 1st lien) compressed to approximately SOFR + 450–500 bps from SOFR + 550–600 bps in 2023, as competition among lenders intensified.
+- Deal activity rebounded, with private credit participating in a record number of leveraged buyout financings in Q2 2024 as private equity sponsors returned to deal-making following the 2023 lull.
+- Stress in the market remains concentrated in software/tech and healthcare sub-segments where revenue growth disappointed relative to underwriting assumptions made at 2021 valuations. Payment-in-kind (PIK) toggles were activated in an estimated 8%–12% of middle market software deals originated in 2021.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMMERCIAL REAL ESTATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Commercial real estate continues to be the most acute pressure point in the credit markets. Office fundamentals remain severely challenged: national average office vacancy rates climbed to 19.6% in Q2 2024 per CBRE data, with major gateway markets (San Francisco, New York Midtown, Chicago) experiencing vacancy above 20%. Remote and hybrid work adoption has stabilized, but demand for traditional office space has not recovered.
+
+Multifamily fundamentals have softened due to elevated new supply deliveries, particularly in the Sun Belt markets (Austin, Phoenix, Dallas, Nashville). Average rent growth on a national basis slowed to +0.8% year-over-year in Q2 2024. However, the long-term structural undersupply of housing and expected moderation in new construction starts in 2025–2026 should support a rebound in multifamily fundamentals.
+
+ATLAS CRE risk assessment for financial institutions:
+- Regional banks with high CRE concentrations (CRE loans > 300% of risk-based capital) remain most exposed to mark-to-market pressure as loans mature and refinancing challenges persist.
+- We estimate that approximately $540 billion in commercial mortgages will mature in 2024, of which $110–$140 billion may face refinancing difficulty given current cap rates and debt service coverage ratios.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GEOPOLITICAL AND TAIL RISKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. U.S. Election Risk: The November 2024 U.S. presidential and congressional elections introduce policy uncertainty across trade (tariffs), fiscal (tax rates), and regulatory (financial services, antitrust) dimensions. Markets have historically shown limited volatility around election outcomes, but policy divergence in 2025 could be significant.
+
+2. Middle East Conflict: Ongoing regional instability creates intermittent energy price spikes. Brent crude traded in a $78–$92 range in H1 2024. A material escalation could push crude above $100/barrel, reigniting energy inflation.
+
+3. China Economic Slowdown: China's GDP growth decelerated to an estimated 4.8% annualized in Q2 2024, below the government's 5.0% target. Weakness in property investment and export demand creates headwinds for global trade, particularly impacting emerging market assets and commodity-sensitive sectors.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This report is produced by Atlas Research Group for informational purposes only and does not constitute investment advice. The views expressed are those of Atlas Research Group analysts as of the publication date and are subject to change without notice.
+
+Atlas Research Group | research@atlasrg.com | atlasresearchgroup.com

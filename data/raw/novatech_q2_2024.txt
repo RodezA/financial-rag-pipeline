@@ -1,0 +1,103 @@
+NOVATECH FINANCIAL CORP (NVTF)
+Q2 2024 EARNINGS REPORT
+For the Three Months Ended June 30, 2024
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXECUTIVE SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NovaTech Financial Corp reported second-quarter 2024 net revenue of $447.9 million, an increase of 16.1% year-over-year compared to $385.8 million in Q2 2023. Net income attributable to common shareholders was $96.1 million, or $1.23 per diluted share, compared to $78.3 million, or $1.00 per diluted share, in the prior-year period.
+
+CEO Marcus Delano stated: "Q2 2024 was our strongest revenue quarter to date. The Arbor integration is on track, and our lending portfolio continues to perform within our updated credit parameters. We are on pace to meet or exceed our revised full-year outlook."
+
+CFO Priya Nambiar added: "We generated $98.4 million in free cash flow this quarter, enabling us to reduce net debt by $54 million. Our balance sheet is in excellent shape heading into the second half of the year."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SEGMENT RESULTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Payment Processing
+  Revenue:          $244.7M   (+19.8% YoY)
+  Operating Income: $68.5M    (margin: 28.0%)
+  TPV:              $20.1B    (+24.2% YoY)
+
+Lending Solutions
+  Revenue:          $115.3M   (+10.2% YoY)
+  Operating Income: $31.4M    (margin: 27.2%)
+  Loan Originations: $2.3B
+  Net Charge-Off Rate: 1.38%
+
+Wealth & Advisory
+  Revenue:          $87.9M    (+14.3% YoY)
+  Operating Income: $21.2M    (margin: 24.1%)
+  AUM:              $15.6B    (+11.4% YoY)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BALANCE SHEET HIGHLIGHTS (as of June 30, 2024)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Total Assets:              $7.12B
+Total Liabilities:         $4.29B
+Shareholders' Equity:      $2.83B
+Cash and Equivalents:      $1.02B
+Total Debt:                $1.20B
+Net Debt:                  $184.7M        (down from $238.7M in Q1)
+Debt-to-Equity Ratio:      0.42x
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INCOME STATEMENT SUMMARY (Q2 2024)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Net Revenue:                    $447.9M
+Cost of Revenue:                $175.6M
+Gross Profit:                   $272.3M     (gross margin: 60.8%)
+Operating Expenses:             $141.3M
+  - Sales & Marketing:          $51.2M
+  - R&D:                        $55.8M
+  - G&A:                        $34.3M
+Operating Income (EBIT):        $131.0M     (EBIT margin: 29.2%)
+Interest Expense, net:          $(9.6M)
+Pre-tax Income:                 $121.4M
+Income Tax Expense:             $25.3M      (effective rate: 20.8%)
+Net Income:                     $96.1M
+Adjusted EBITDA:                $149.2M     (margin: 33.3%)
+
+H1 2024 Net Revenue:            $860.6M
+H1 2024 Adjusted EBITDA:        $280.8M
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UPDATED GUIDANCE — FULL YEAR 2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Following strong H1 results, NovaTech raised full-year 2024 guidance for the second time:
+  Net Revenue:      $1.74B – $1.77B  (prior: $1.68B – $1.72B)
+  Adjusted EBITDA:  $548M  – $568M   (prior: $520M  – $545M)
+  Diluted EPS:      $4.80  – $4.95   (prior: $4.55  – $4.75)
+  TPV:              $79B   – $83B
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPERATIONAL HIGHLIGHTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- Enterprise client count grew to 5,210, up 6.6% sequentially from 4,870 at the end of Q1.
+- The Arbor Payments integration is approximately 60% complete. Core payment rails were successfully migrated in June 2024; remaining integration work covers risk systems and client reporting portals.
+- NovaTech launched NovaPay Instant, a real-time account-to-account payment product, in June 2024. Early adoption has exceeded internal forecasts, with 180 enterprise clients activating the product in the first month.
+- International revenue reached $72.4M (16.2% of total revenue), reflecting continued expansion in the UK market and the signing of a partnership agreement with Deutsche Commerce Bank AG.
+- The net charge-off rate in Lending Solutions declined from 1.42% in Q1 2024 to 1.38% in Q2, validating the tightened underwriting standards implemented earlier in the year.
+- NovaTech's board of directors approved a share repurchase program of up to $250 million, to be executed over the following 18 months.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CASH FLOW STATEMENT SUMMARY (Q2 2024)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Operating Cash Flow:      $117.1M
+Capital Expenditures:     $(18.7M)
+Free Cash Flow:           $98.4M
+Investing Activities:     $(22.3M)
+Financing Activities:     $(38.2M)    (includes $54M debt repayment)
+Net Change in Cash:       $56.6M
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONFERENCE CALL
+
+NovaTech's Q2 2024 earnings conference call was held on July 25, 2024 at 8:00 AM ET. CEO Marcus Delano and CFO Priya Nambiar hosted the call. A replay is available on the investor relations section of novatechfinancial.com.

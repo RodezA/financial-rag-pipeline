@@ -1,0 +1,141 @@
+APEX HOLDINGS, INC. (APX)
+ANNUAL REPORT — FISCAL YEAR 2023
+For the Year Ended December 31, 2023
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LETTER TO SHAREHOLDERS — CHAIRMAN & CEO RAYMOND KESSLER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Fellow Shareholders,
+
+Fiscal year 2023 was a pivotal year for Apex Holdings. We delivered record revenue of $3.41 billion, grew adjusted EBITDA by 21.4% to $748 million, and executed the largest acquisition in the company's 34-year history with the $1.1 billion purchase of Sentinel Risk Management Group in September 2023.
+
+Our four operating segments — Commercial Insurance, Specialty Finance, Asset Management, and Technology Services — each delivered positive results. The diversification of our revenue model continues to prove its value: while rising interest rates pressured our Specialty Finance segment in the first half of the year, our Commercial Insurance and Asset Management segments captured substantial tailwinds from the same macro environment.
+
+We returned $312 million to shareholders in 2023 through $198 million in dividends and $114 million in share repurchases. Our board has approved a 7.5% increase in the quarterly dividend, raising it to $0.43 per share, effective Q1 2024.
+
+Looking ahead, we remain on track to achieve our five-year strategic target of $5.0 billion in revenue by fiscal year 2027.
+
+Raymond Kessler
+Chairman & Chief Executive Officer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FIVE-YEAR FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                       FY2023    FY2022    FY2021    FY2020    FY2019
+Revenue ($M):          3,412     2,988     2,641     2,314     2,107
+Gross Profit ($M):     1,624     1,387     1,195     1,022       941
+EBITDA (Adj.) ($M):      748       616       532       448       401
+Net Income ($M):         394       319       278       231       204
+Diluted EPS ($):        5.04      4.07      3.53      2.94      2.58
+Dividends/Share ($):    1.57      1.46      1.32      1.20      1.10
+Total Assets ($B):      14.2      11.8      10.4       9.1       8.3
+Shareholders' Eq. ($B): 4.9       4.3       3.8       3.4       3.1
+
+Revenue CAGR (5-yr): 10.1%
+EPS CAGR (5-yr): 14.3%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SEGMENT RESULTS — FISCAL YEAR 2023
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COMMERCIAL INSURANCE
+  Gross Written Premium:    $1.48B   (+18.3% YoY)
+  Net Earned Premium:       $1.12B
+  Combined Ratio:           91.4%    (vs. 93.7% in FY2022)
+  Underwriting Income:      $96.3M
+  Net Investment Income:    $214.7M  (+31.2% YoY, driven by rising rates)
+  Segment Operating Income: $311.0M
+
+The Commercial Insurance segment benefited from continued hard market conditions in property & casualty lines, enabling premium rate increases averaging 9.8% across the book. Catastrophe losses of $84.7 million in 2023 were below our 10-year average, contributing to the improvement in combined ratio.
+
+SPECIALTY FINANCE
+  Revenue:                  $642.1M  (+4.1% YoY)
+  Net Interest Margin:      3.21%    (vs. 3.67% in FY2022)
+  Loan Portfolio:           $5.84B
+  Non-Performing Loans:     1.83% of portfolio
+  Segment Operating Income: $148.6M  (-12.4% YoY)
+
+Net interest margin compressed as the cost of funds rose faster than asset yields in the first two quarters of the year. Remediation actions taken in Q3 and Q4 — including the repricing of $1.2 billion in variable-rate commercial real estate loans and the reduction of shorter-duration fixed-rate originations — are expected to restore margin to the 3.40%–3.60% range in 2024.
+
+ASSET MANAGEMENT
+  Revenue:                  $487.3M  (+22.6% YoY)
+  AUM:                      $48.2B   (+14.9% YoY)
+  Management Fee Revenue:   $341.8M
+  Performance Fee Revenue:  $145.5M  (driven by strong equity returns)
+  Segment Operating Income: $201.4M
+
+Asset Management was the strongest-performing segment in 2023. Global equity markets rallied significantly (S&P 500 +26.3%, MSCI World +23.8%), generating substantial performance fees on multi-strategy and long-only equity mandates. Net new asset flows totaled $3.4 billion, with strength in our fixed income and alternative credit product lines.
+
+TECHNOLOGY SERVICES
+  Revenue:                  $700.8M  (+16.2% YoY, includes Sentinel contribution)
+  Recurring Revenue:        $524.1M  (74.8% of segment revenue)
+  Segment Operating Income: $87.6M
+  ARR (Annual Recurring Revenue): $561.4M
+
+The Technology Services segment completed the integration of Sentinel Risk Management Group, acquired in September 2023 for $1.1 billion. Sentinel contributed $148.3 million in revenue in the partial year, in line with acquisition model projections. Sentinel's risk analytics platform now serves 2,100 commercial insurance carriers and MGAs globally.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONSOLIDATED INCOME STATEMENT (FY2023)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Total Revenue:                     $3,412.5M
+Cost of Revenue:                   $1,788.7M
+Gross Profit:                      $1,623.8M     (47.6% gross margin)
+Operating Expenses:                  $918.4M
+  - Compensation & Benefits:         $612.3M
+  - Technology & Infrastructure:     $174.8M
+  - General & Administrative:        $131.3M
+Operating Income (EBIT):             $705.4M     (20.7% EBIT margin)
+Interest Expense, net:              $(172.4M)
+Goodwill Impairment:                    $0
+Pre-tax Income:                      $533.0M
+Income Tax Expense:                  $139.0M     (effective rate: 26.1%)
+Net Income:                          $394.0M
+Diluted Shares Outstanding:           78.2M
+Diluted EPS:                           $5.04
+Adjusted EBITDA:                     $748.0M     (21.9% margin)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ACQUISITION OF SENTINEL RISK MANAGEMENT GROUP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+On September 12, 2023, Apex Holdings completed the acquisition of Sentinel Risk Management Group for a total consideration of $1.1 billion ($925 million cash, $175 million in APX common stock). Sentinel is a leading provider of real-time risk scoring and catastrophe modeling software to the insurance industry.
+
+Purchase price allocation:
+  Identifiable net assets:    $284.7M
+  Customer relationships:     $198.4M   (amortized over 12 years)
+  Developed technology:       $162.1M   (amortized over 7 years)
+  Trade names:                 $44.3M   (indefinite-lived)
+  Goodwill:                   $410.5M
+  Total:                    $1,100.0M
+
+Sentinel contributed revenue of $148.3M and adjusted EBITDA of $41.6M in the period from acquisition through December 31, 2023. Management expects Sentinel to contribute approximately $285M in revenue and $95M in adjusted EBITDA in fiscal year 2024, with integration synergies of $28–$34 million expected to be fully realized by end of 2025.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CAPITAL ALLOCATION — FY2023
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Operating Cash Flow:         $521.4M
+Capital Expenditures:       $(142.3M)
+Free Cash Flow:              $379.1M
+Acquisitions (net of cash): $(887.6M)
+Dividends Paid:             $(198.2M)
+Share Repurchases:          $(114.0M)
+
+Net Debt (end of FY2023):   $2.14B
+Net Debt / Adj. EBITDA:      2.86x     (target: below 3.0x)
+Credit Rating:               BBB / Baa2 (stable outlook)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FY2024 GUIDANCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Total Revenue:         $3.72B – $3.82B
+  Adjusted EBITDA:       $840M  – $870M
+  Diluted EPS:           $5.60  – $5.85
+  Free Cash Flow:        $420M  – $450M
+  Capital Expenditures:  $155M  – $170M
+
+Key assumptions: Federal funds rate averaging 4.75%–5.00%; S&P 500 mid-single-digit returns; no material catastrophe losses above historical averages.

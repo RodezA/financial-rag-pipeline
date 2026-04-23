@@ -1,0 +1,366 @@
+[
+  {
+    "id": "nvtf_q1_001",
+    "question": "What was NovaTech Financial Corp's net revenue in Q1 2024?",
+    "answer": "$412.7 million",
+    "source_doc": "novatech_q1_2024.txt",
+    "relevant_chunks": ["Q1 2024 net revenue of $412.7 million"],
+    "difficulty": "easy",
+    "category": "financial_fact"
+  },
+  {
+    "id": "nvtf_q1_002",
+    "question": "How many new enterprise clients did NovaTech add in Q1 2024?",
+    "answer": "340 new enterprise clients",
+    "source_doc": "novatech_q1_2024.txt",
+    "relevant_chunks": ["we added 340 new enterprise clients, the strongest single-quarter intake in company history"],
+    "difficulty": "easy",
+    "category": "operational_fact"
+  },
+  {
+    "id": "nvtf_q1_003",
+    "question": "What company did NovaTech acquire in Q1 2024 and for how much?",
+    "answer": "NovaTech acquired Arbor Payments Inc. on February 14, 2024 for $215 million in cash.",
+    "source_doc": "novatech_q1_2024.txt",
+    "relevant_chunks": ["completed the acquisition of Arbor Payments Inc. on February 14, 2024, for $215 million in cash"],
+    "difficulty": "easy",
+    "category": "corporate_event"
+  },
+  {
+    "id": "nvtf_q1_004",
+    "question": "What was NovaTech's net charge-off rate in the Lending Solutions segment in Q1 2024?",
+    "answer": "1.42%",
+    "source_doc": "novatech_q1_2024.txt",
+    "relevant_chunks": ["Net Charge-Off Rate: 1.42%"],
+    "difficulty": "easy",
+    "category": "credit_quality"
+  },
+  {
+    "id": "nvtf_q1_005",
+    "question": "What was NovaTech's revised full-year 2024 net revenue guidance after Q1 results?",
+    "answer": "$1.68 billion to $1.72 billion",
+    "source_doc": "novatech_q1_2024.txt",
+    "relevant_chunks": ["Net Revenue: $1.68B – $1.72B"],
+    "difficulty": "medium",
+    "category": "guidance"
+  },
+  {
+    "id": "nvtf_q1_006",
+    "question": "What was the estimated value of fraudulent transactions blocked by NovaTech's AI fraud detection engine in Q1 2024?",
+    "answer": "An estimated $340 million in fraudulent transactions, a 41% improvement over the prior year.",
+    "source_doc": "novatech_q1_2024.txt",
+    "relevant_chunks": ["AI-powered fraud detection engine blocked an estimated $340 million in fraudulent transactions during Q1, a 41% improvement"],
+    "difficulty": "medium",
+    "category": "operational_fact"
+  },
+  {
+    "id": "nvtf_q1_007",
+    "question": "How would a 100 basis point increase in interest rates affect NovaTech's annual interest expense?",
+    "answer": "A 100 basis point increase in reference rates would increase annual interest expense by approximately $11.8 million.",
+    "source_doc": "novatech_q1_2024.txt",
+    "relevant_chunks": ["A 100 basis point increase in reference rates would increase annual interest expense by approximately $11.8 million"],
+    "difficulty": "medium",
+    "category": "risk_analysis"
+  },
+  {
+    "id": "nvtf_q2_001",
+    "question": "What was NovaTech's free cash flow in Q2 2024?",
+    "answer": "$98.4 million",
+    "source_doc": "novatech_q2_2024.txt",
+    "relevant_chunks": ["Free Cash Flow: $98.4M"],
+    "difficulty": "easy",
+    "category": "financial_fact"
+  },
+  {
+    "id": "nvtf_q2_002",
+    "question": "What new payment product did NovaTech launch in June 2024?",
+    "answer": "NovaPay Instant, a real-time account-to-account payment product.",
+    "source_doc": "novatech_q2_2024.txt",
+    "relevant_chunks": ["NovaTech launched NovaPay Instant, a real-time account-to-account payment product, in June 2024"],
+    "difficulty": "easy",
+    "category": "product_launch"
+  },
+  {
+    "id": "nvtf_q2_003",
+    "question": "What was NovaTech's net debt at the end of Q2 2024, and how did it change from Q1 2024?",
+    "answer": "Net debt was $184.7 million at the end of Q2 2024, down from $238.7 million at the end of Q1 2024.",
+    "source_doc": "novatech_q2_2024.txt",
+    "relevant_chunks": ["Net Debt: $184.7M (down from $238.7M in Q1)"],
+    "difficulty": "medium",
+    "category": "balance_sheet"
+  },
+  {
+    "id": "nvtf_q2_004",
+    "question": "What share repurchase program did NovaTech's board approve in Q2 2024?",
+    "answer": "The board approved a share repurchase program of up to $250 million to be executed over 18 months.",
+    "source_doc": "novatech_q2_2024.txt",
+    "relevant_chunks": ["approved a share repurchase program of up to $250 million, to be executed over the following 18 months"],
+    "difficulty": "easy",
+    "category": "corporate_action"
+  },
+  {
+    "id": "nvtf_cross_001",
+    "question": "How did NovaTech's net charge-off rate in Lending Solutions change between Q1 2024 and Q2 2024?",
+    "answer": "The net charge-off rate declined from 1.42% in Q1 2024 to 1.38% in Q2 2024.",
+    "source_doc": ["novatech_q1_2024.txt", "novatech_q2_2024.txt"],
+    "relevant_chunks": ["Net Charge-Off Rate: 1.42%", "net charge-off rate in Lending Solutions declined from 1.42% in Q1 2024 to 1.38% in Q2"],
+    "difficulty": "medium",
+    "category": "multi_doc_comparison",
+    "requires_multi_doc": true
+  },
+  {
+    "id": "nvtf_cross_002",
+    "question": "How much did NovaTech raise its full-year 2024 revenue guidance between the Q1 and Q2 earnings releases?",
+    "answer": "After Q1, guidance was $1.68B–$1.72B. After Q2, it was raised to $1.74B–$1.77B, an increase of approximately $60–$90 million at the midpoint.",
+    "source_doc": ["novatech_q1_2024.txt", "novatech_q2_2024.txt"],
+    "relevant_chunks": ["Net Revenue: $1.68B – $1.72B", "Net Revenue: $1.74B – $1.77B"],
+    "difficulty": "hard",
+    "category": "multi_doc_comparison",
+    "requires_multi_doc": true
+  },
+  {
+    "id": "meridian_q1_001",
+    "question": "What was the net return of Meridian Opportunistic Credit Fund in Q1 2024?",
+    "answer": "+4.7%",
+    "source_doc": "meridian_capital_q1_2024.txt",
+    "relevant_chunks": ["Net Return (Q1 2024): +4.7%"],
+    "difficulty": "easy",
+    "category": "fund_performance"
+  },
+  {
+    "id": "meridian_q1_002",
+    "question": "How much capital did Meridian Capital Partners deploy in Q1 2024, and across how many new positions?",
+    "answer": "$312 million across 9 new positions.",
+    "source_doc": "meridian_capital_q1_2024.txt",
+    "relevant_chunks": ["Meridian deployed $312 million of capital across 9 new positions in Q1 2024"],
+    "difficulty": "easy",
+    "category": "capital_activity"
+  },
+  {
+    "id": "meridian_q1_003",
+    "question": "What was the MOIC and IRR on Meridian's exit from Redstone Building Products?",
+    "answer": "Meridian realized a 2.3x multiple of invested capital (MOIC) and a 34% net IRR on a 26-month hold.",
+    "source_doc": "meridian_capital_q1_2024.txt",
+    "relevant_chunks": ["Meridian realized a 2.3x multiple of invested capital and a 34% IRR on a 26-month hold"],
+    "difficulty": "medium",
+    "category": "fund_realization"
+  },
+  {
+    "id": "meridian_q1_004",
+    "question": "What is the management fee and performance fee structure for Meridian's funds?",
+    "answer": "Management fees are 1.5% per annum, and performance fees are 20% above an 8% preferred return hurdle rate.",
+    "source_doc": "meridian_capital_q1_2024.txt",
+    "relevant_chunks": ["net of management fees (1.5% per annum) and performance fees (20% above an 8% preferred return hurdle rate)"],
+    "difficulty": "medium",
+    "category": "fund_structure"
+  },
+  {
+    "id": "meridian_q1_005",
+    "question": "What is the weighted average portfolio yield across Meridian's funds as of Q1 2024?",
+    "answer": "9.14%",
+    "source_doc": "meridian_capital_q1_2024.txt",
+    "relevant_chunks": ["Weighted Average Portfolio Yield: 9.14%"],
+    "difficulty": "easy",
+    "category": "portfolio_metrics"
+  },
+  {
+    "id": "apex_annual_001",
+    "question": "What was Apex Holdings' total revenue in fiscal year 2023?",
+    "answer": "$3.41 billion (specifically $3,412.5 million).",
+    "source_doc": "apex_holdings_annual_2023.txt",
+    "relevant_chunks": ["Total Revenue: $3,412.5M", "record revenue of $3.41 billion"],
+    "difficulty": "easy",
+    "category": "financial_fact"
+  },
+  {
+    "id": "apex_annual_002",
+    "question": "How much did Apex Holdings pay to acquire Sentinel Risk Management Group, and what were the deal terms?",
+    "answer": "Apex Holdings acquired Sentinel Risk Management Group for $1.1 billion total consideration: $925 million in cash and $175 million in APX common stock.",
+    "source_doc": "apex_holdings_annual_2023.txt",
+    "relevant_chunks": ["total consideration of $1.1 billion ($925 million cash, $175 million in APX common stock)"],
+    "difficulty": "medium",
+    "category": "acquisition"
+  },
+  {
+    "id": "apex_annual_003",
+    "question": "What was Apex Holdings' combined ratio in the Commercial Insurance segment in 2023?",
+    "answer": "91.4%, improved from 93.7% in FY2022.",
+    "source_doc": "apex_holdings_annual_2023.txt",
+    "relevant_chunks": ["Combined Ratio: 91.4% (vs. 93.7% in FY2022)"],
+    "difficulty": "easy",
+    "category": "insurance_metrics"
+  },
+  {
+    "id": "apex_annual_004",
+    "question": "What is Apex Holdings' five-year revenue CAGR through 2023?",
+    "answer": "10.1%",
+    "source_doc": "apex_holdings_annual_2023.txt",
+    "relevant_chunks": ["Revenue CAGR (5-yr): 10.1%"],
+    "difficulty": "easy",
+    "category": "financial_trend"
+  },
+  {
+    "id": "apex_annual_005",
+    "question": "Why did the Specialty Finance segment's operating income decline in FY2023?",
+    "answer": "Net interest margin compressed from 3.67% to 3.21% as the cost of funds rose faster than asset yields in the first two quarters of 2023, causing operating income to decline 12.4%.",
+    "source_doc": "apex_holdings_annual_2023.txt",
+    "relevant_chunks": ["Net interest margin compressed as the cost of funds rose faster than asset yields", "Segment Operating Income: $148.6M (-12.4% YoY)"],
+    "difficulty": "medium",
+    "category": "business_analysis"
+  },
+  {
+    "id": "apex_annual_006",
+    "question": "What is Apex Holdings' quarterly dividend after the board's Q1 2024 increase?",
+    "answer": "$0.43 per share, a 7.5% increase from the prior level.",
+    "source_doc": "apex_holdings_annual_2023.txt",
+    "relevant_chunks": ["raising it to $0.43 per share, effective Q1 2024"],
+    "difficulty": "easy",
+    "category": "shareholder_return"
+  },
+  {
+    "id": "cbt_q3_001",
+    "question": "What was Cornerstone Bank & Trust's net interest margin in Q3 2024?",
+    "answer": "3.48%",
+    "source_doc": "cornerstone_bank_q3_2024.txt",
+    "relevant_chunks": ["Net Interest Margin: 3.48%"],
+    "difficulty": "easy",
+    "category": "bank_metrics"
+  },
+  {
+    "id": "cbt_q3_002",
+    "question": "What percentage of Cornerstone Bank's total loans is in office commercial real estate?",
+    "answer": "5.4% ($440 million)",
+    "source_doc": "cornerstone_bank_q3_2024.txt",
+    "relevant_chunks": ["Office: $0.44B (5.4%)"],
+    "difficulty": "medium",
+    "category": "credit_exposure"
+  },
+  {
+    "id": "cbt_q3_003",
+    "question": "What is Cornerstone Bank's CET1 capital ratio as of Q3 2024?",
+    "answer": "11.7%, well above the regulatory minimum of 6.5%.",
+    "source_doc": "cornerstone_bank_q3_2024.txt",
+    "relevant_chunks": ["CET1 Capital Ratio: 11.7% (regulatory minimum: 6.5%)"],
+    "difficulty": "easy",
+    "category": "capital_adequacy"
+  },
+  {
+    "id": "cbt_q3_004",
+    "question": "How would a 200 basis point increase in rates impact Cornerstone Bank's net interest income?",
+    "answer": "A +200 bps shock would increase NII by approximately $18.4 million, or +4.7%.",
+    "source_doc": "cornerstone_bank_q3_2024.txt",
+    "relevant_chunks": ["+200 bps shock: +$18.4M +4.7%"],
+    "difficulty": "medium",
+    "category": "interest_rate_sensitivity"
+  },
+  {
+    "id": "cbt_q3_005",
+    "question": "What was Cornerstone Bank's allowance for credit losses coverage ratio of non-performing loans as of Q3 2024?",
+    "answer": "390.3%",
+    "source_doc": "cornerstone_bank_q3_2024.txt",
+    "relevant_chunks": ["ACL Coverage of NPLs: 390.3%"],
+    "difficulty": "medium",
+    "category": "credit_quality"
+  },
+  {
+    "id": "market_001",
+    "question": "What was the U.S. high-yield default rate for the trailing 12 months as of mid-2024?",
+    "answer": "2.9%, down from a peak of 4.1% in Q1 2024.",
+    "source_doc": "market_outlook_q3_2024.txt",
+    "relevant_chunks": ["Default Rate (trailing 12 months): 2.9% (vs. 4.1% peak in Q1 2024)"],
+    "difficulty": "medium",
+    "category": "market_data"
+  },
+  {
+    "id": "market_002",
+    "question": "What was the S&P 500's total return in H1 2024?",
+    "answer": "+15.3%",
+    "source_doc": "market_outlook_q3_2024.txt",
+    "relevant_chunks": ["The S&P 500 returned +15.3% in H1 2024"],
+    "difficulty": "easy",
+    "category": "market_data"
+  },
+  {
+    "id": "market_003",
+    "question": "What was the ICE BofA U.S. High Yield Index option-adjusted spread as of the end of Q2 2024?",
+    "answer": "311 basis points, described as near post-COVID tights.",
+    "source_doc": "market_outlook_q3_2024.txt",
+    "relevant_chunks": ["Option-Adjusted Spread (HY): 311 bps (near post-COVID tights)"],
+    "difficulty": "medium",
+    "category": "market_data"
+  },
+  {
+    "id": "market_004",
+    "question": "What is Atlas Research Group's base case for Federal Reserve rate cuts in H2 2024?",
+    "answer": "Atlas' base case (65% probability) is a first cut of 25 bps in September 2024 followed by two additional cuts in Q4 2024, bringing the federal funds rate to 4.50%–4.75% by year-end 2024.",
+    "source_doc": "market_outlook_q3_2024.txt",
+    "relevant_chunks": ["ATLAS BASE CASE: We expect the Fed to deliver its first rate cut in September 2024 (25 bps), followed by two additional cuts in Q4 2024"],
+    "difficulty": "medium",
+    "category": "macro_outlook"
+  },
+  {
+    "id": "greenfield_001",
+    "question": "What is the pricing on the Greenfield Infrastructure Partners term loan?",
+    "answer": "SOFR + 375 basis points with a 0.5% SOFR floor, issued at an OID of 99.0.",
+    "source_doc": "greenfield_infra_deal_memo.txt",
+    "relevant_chunks": ["Pricing: SOFR + 375 bps (0.5% floor)", "OID: 99.0"],
+    "difficulty": "easy",
+    "category": "deal_terms"
+  },
+  {
+    "id": "greenfield_002",
+    "question": "What percentage of Greenfield Infrastructure's transmission capacity is under contract?",
+    "answer": "98.4% under transmission service agreements (TSAs), with a weighted average remaining term of 18.4 years.",
+    "source_doc": "greenfield_infra_deal_memo.txt",
+    "relevant_chunks": ["Contracted Capacity: 98.4% under TSA (weighted avg. remaining term: 18.4 years)"],
+    "difficulty": "easy",
+    "category": "operational_fact"
+  },
+  {
+    "id": "greenfield_003",
+    "question": "What is Greenfield Infrastructure's pro forma net leverage after the transaction?",
+    "answer": "2.70x (total debt of $280 million divided by LTM EBITDA of $103.7 million).",
+    "source_doc": "greenfield_infra_deal_memo.txt",
+    "relevant_chunks": ["Total Net Leverage: 2.70x"],
+    "difficulty": "medium",
+    "category": "leverage_metrics"
+  },
+  {
+    "id": "cross_doc_001",
+    "question": "Meridian Capital Partners participated in the Greenfield Infrastructure Partners term loan. What was Meridian's commitment size?",
+    "answer": "$40 million.",
+    "source_doc": ["meridian_capital_q1_2024.txt", "greenfield_infra_deal_memo.txt"],
+    "relevant_chunks": ["Greenfield Infrastructure Partners — $40M co-investment alongside lead sponsor", "Meridian Capital Partners ($40M)"],
+    "difficulty": "hard",
+    "category": "multi_doc_fact",
+    "requires_multi_doc": true
+  },
+  {
+    "id": "cross_doc_002",
+    "question": "How does Cornerstone Bank's office CRE exposure relate to the risks described in the Atlas Research Q3 2024 market outlook?",
+    "answer": "Atlas Research flagged office vacancy rates reaching 19.6% nationally and noted that regional banks with high CRE concentrations are most exposed. Cornerstone's office portfolio is $440M (5.4% of loans), mostly in suburban markets with vacancy below 15%, which is more conservative than the national average highlighted in the Atlas report.",
+    "source_doc": ["cornerstone_bank_q3_2024.txt", "market_outlook_q3_2024.txt"],
+    "relevant_chunks": [
+      "national average office vacancy rates climbed to 19.6%",
+      "Office: $0.44B (5.4%)",
+      "78% is located in suburban and secondary markets with vacancy rates below 15%"
+    ],
+    "difficulty": "hard",
+    "category": "multi_doc_synthesis",
+    "requires_multi_doc": true
+  },
+  {
+    "id": "cross_doc_003",
+    "question": "How did the Federal Reserve interest rate environment described in the Atlas Research Q3 2024 outlook affect NovaTech's interest rate risk as described in their Q1 2024 earnings report?",
+    "answer": "Atlas Research described rates holding at 5.25%–5.50% through H1 2024 with cuts expected in H2. NovaTech's Q1 report noted $1.18B in variable-rate debt, meaning the elevated rate environment created roughly $62M in annual interest expense, with each 100 bps move changing expense by $11.8M.",
+    "source_doc": ["novatech_q1_2024.txt", "market_outlook_q3_2024.txt"],
+    "relevant_chunks": [
+      "federal funds rate at 5.25%–5.50%",
+      "NovaTech carries $1.18B in variable-rate debt",
+      "A 100 basis point increase in reference rates would increase annual interest expense by approximately $11.8 million"
+    ],
+    "difficulty": "hard",
+    "category": "multi_doc_synthesis",
+    "requires_multi_doc": true
+  }
+]

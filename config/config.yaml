@@ -1,0 +1,33 @@
+qdrant:
+  # For local Docker: set url to null and provide host/port
+  # For Qdrant Cloud: set url to your cluster URL, leave host/port null
+  url: "https://35d44eb1-42f1-4450-894d-6b94066cc98e.eu-west-1-0.aws.cloud.qdrant.io"
+  host: null
+  port: null
+  collection_name: "financial_docs"
+  # api_key read from QDRANT_API_KEY env var — never hardcode here
+
+embedding:
+  model: "text-embedding-3-small"
+  batch_size: 32
+
+chunking:
+  chunk_size: 800
+  chunk_overlap: 150
+
+retrieval:
+  top_k: 10
+
+reranking:
+  model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  top_k_after_rerank: 4
+
+generation:
+  model: "claude-sonnet-4-6"
+  max_tokens: 1024
+  temperature: 0.0
+
+paths:
+  raw_data: "data/raw"
+  eval_data: "data/eval/qa_pairs.json"
+  eval_output: "eval_results.json"

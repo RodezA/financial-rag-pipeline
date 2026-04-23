@@ -1,0 +1,116 @@
+MERIDIAN CAPITAL PARTNERS, LLC
+QUARTERLY INVESTOR LETTER — Q1 2024
+Reporting Period: January 1 – March 31, 2024
+Prepared for: Limited Partners of Record
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FUND PERFORMANCE OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Meridian Capital Partners is pleased to report results for our three primary strategies for Q1 2024.
+
+Meridian Opportunistic Credit Fund (MOCF)
+  Net Return (Q1 2024):      +4.7%
+  Net Return (TTM):          +14.2%
+  AUM:                       $2.84B
+  Inception-to-date (net):   +187.4%   (since January 2009)
+
+Meridian Structured Finance Fund III (MSFF III)
+  Net Return (Q1 2024):      +3.1%
+  Net Return (TTM):          +11.8%
+  AUM:                       $1.62B
+  Inception-to-date (net):   +94.7%    (since March 2018)
+
+Meridian Special Situations Fund (MSSF)
+  Net Return (Q1 2024):      +6.2%
+  Net Return (TTM):          +19.6%
+  AUM:                       $890M
+  Inception-to-date (net):   +62.3%    (since October 2019)
+
+Total Firm AUM:              $5.36B    (up from $5.11B at year-end 2023)
+
+All returns are reported net of management fees (1.5% per annum) and performance fees (20% above an 8% preferred return hurdle rate).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MARKET COMMENTARY — MANAGING PARTNER ELENA VOSS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Q1 2024 was a favorable environment for credit-oriented strategies. The Federal Reserve held the federal funds rate at 5.25%–5.50% throughout the quarter, and its forward guidance continued to signal a gradual easing cycle beginning no earlier than Q3 2024. This "higher for longer" backdrop kept new supply of leveraged loans and high-yield bonds constrained relative to 2021–2022 levels, supporting spread compression in secondary markets.
+
+The ICE BofA US High Yield Index returned +1.5% in Q1 2024. Investment-grade credit returned +0.3%, modestly negative in total return terms due to duration headwinds as the 10-year Treasury yield rose from 3.88% to 4.21% during the quarter.
+
+Our Opportunistic Credit Fund outperformed the high yield benchmark by approximately 320 basis points on a net basis during Q1. This outperformance was driven primarily by our overweight position in distressed-to-par situations in the specialty retail and healthcare services sectors, where we identified mispriced credit risk following the 2023 wave of liability management exercises (LMEs).
+
+The Special Situations Fund produced its strongest quarterly return since inception, led by:
+- A successful exit from our position in Redstone Building Products' term loan following the company's recapitalization in February 2024. Meridian realized a 2.3x multiple of invested capital and a 34% IRR on a 26-month hold.
+- Mark-to-market appreciation in our position in Vantage Logistics Corp's senior secured notes (6.875%, due 2028), which rallied from 74 cents to 91 cents on the dollar following the company's announcement of an asset sale.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PORTFOLIO POSITIONING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+As of March 31, 2024, aggregate portfolio positioning across all funds:
+
+By Asset Class:
+  Senior Secured Loans:            38.4%
+  Senior Secured Bonds:            21.7%
+  Subordinated / Mezzanine:        14.2%
+  Distressed / Special Situations: 12.9%
+  CLO Equity & Structured Credit:  8.6%
+  Cash and Equivalents:            4.2%
+
+By Sector (top five):
+  Financial Services:              19.3%
+  Healthcare:                      16.7%
+  Technology & Software:           14.1%
+  Industrials:                     12.4%
+  Consumer Services:               11.8%
+
+Weighted Average Portfolio Yield:  9.14%
+Weighted Average Credit Rating:    B+ / B1
+Duration (MOCF):                   3.2 years
+Duration (MSFF III):               4.7 years
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEW INVESTMENTS — Q1 2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Meridian deployed $312 million of capital across 9 new positions in Q1 2024:
+
+1. Cascade Healthcare Systems — $65M in 1st lien term loan (SOFR + 450 bps, due 2029). Cascade is a regional hospital operator with 14 facilities in the Pacific Northwest. Investment thesis: stable demand profile, undervalued relative to peers following a temporary decline in patient volumes due to a labor dispute resolved in Q4 2023.
+
+2. Pinnacle Media Group — $48M in senior secured notes (7.25%, due 2031). National broadcaster with a diversified revenue base across OTA, cable retransmission, and digital advertising. Purchased at 88 cents on the dollar.
+
+3. Greenfield Infrastructure Partners — $40M co-investment alongside lead sponsor in a $280M term loan supporting a portfolio of renewable energy transmission assets in Texas and the Midwest.
+
+4. Helix Pharmaceuticals — $35M in convertible senior notes (4.50%, due 2027). Specialty pharma company with three products currently generating revenue and a Phase III pipeline candidate in oncology.
+
+5. Five additional positions totaling $124M (names withheld pending position build-out; will be disclosed in Q2 2024 letter).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXITS AND REALIZATIONS — Q1 2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Meridian fully or partially exited 4 positions in Q1 2024, returning $287 million of capital:
+
+1. Redstone Building Products (term loan) — Full exit. 2.3x MOIC, 34% net IRR, 26-month hold.
+2. Lakewood Media Holdings (senior secured bonds) — Full exit at 97 cents on the dollar, capturing approximately $14 million of appreciation from purchase price.
+3. TransAlliance Logistics (mezzanine) — Partial exit ($55M of $90M position) following a refinancing by the company.
+4. Summit Consumer Finance (preferred equity) — Full exit via secondary sale. 1.6x MOIC, 22% net IRR.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CAPITAL ACTIVITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+During Q1 2024, Meridian received $180 million in LP capital contributions across MOCF and MSSF, reflecting continued strong demand from institutional investors. Distributions to LPs totaled $143 million, consisting of $89 million from realizations and $54 million of income distributions.
+
+Meridian Special Situations Fund reached its hard cap of $1.0B in total commitments in April 2024 and is now closed to new limited partners. Investors seeking new exposure may contact Meridian's investor relations team to be placed on the waitlist for the successor fund, MSSF II, which is expected to launch in Q1 2025.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OUTLOOK
+
+Meridian enters Q2 2024 cautiously constructive. We expect continued spread compression in the investment-grade and upper-tier high yield segments, but believe that dislocation and value remain available in the middle market and below-investment-grade special situations space. We will remain disciplined on underwriting and selective on new deployments as pricing becomes increasingly competitive.
+
+This letter is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to purchase any security. Past performance is not indicative of future results.
+
+Meridian Capital Partners, LLC | New York, NY | ir@meridiancap.com

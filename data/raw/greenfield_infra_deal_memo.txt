@@ -1,0 +1,95 @@
+ATLAS RESEARCH GROUP — DEAL ANALYSIS
+GREENFIELD INFRASTRUCTURE PARTNERS: RENEWABLE TRANSMISSION PORTFOLIO
+Analysis Date: March 18, 2024
+Analyst: Thomas Wren, CFA | Credit Research, Infrastructure
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TRANSACTION SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Borrower:          Greenfield Infrastructure Partners, LLC (GIP)
+Transaction:       $280M 1st Lien Term Loan B
+Tenor:             7 years (maturity: March 2031)
+Pricing:           SOFR + 375 bps (0.5% floor)
+OID:               99.0
+Amortization:      1% per annum; bullet at maturity
+Call Protection:   NC2 / 102 / 101
+Purpose:           Refinancing of existing credit facility + growth capex for
+                   two new transmission projects (Lone Star Wind Connector,
+                   High Plains Switchyard Expansion)
+Lead Arranger:     Keystone Capital Markets
+Co-Investors:      Meridian Capital Partners ($40M), two undisclosed institutions
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMPANY OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Greenfield Infrastructure Partners owns and operates a portfolio of 11 high-voltage transmission assets across Texas and the Midwest. The portfolio supports the evacuation of renewable energy from wind and solar generation hubs to load centers. Assets are regulated under FERC Order 1000 or operate under long-term transmission service agreements (TSAs) with investment-grade counterparties including three electric cooperatives and two investor-owned utilities.
+
+Operational Metrics (as of December 31, 2023):
+  Miles of Transmission Line:     847 miles
+  Substations:                    14
+  Total Capacity (MW):           4,820 MW
+  Contracted Capacity:           98.4% under TSA (weighted avg. remaining term: 18.4 years)
+  Portfolio Availability Factor: 99.1% (2023 average)
+
+Sponsors:
+  Hartwell Energy Capital (62% equity ownership) — infrastructure-focused PE firm with $6.4B AUM
+  CalPlex Infrastructure Fund III (38% equity ownership) — pension-backed infrastructure LP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FINANCIAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                           FY2021     FY2022     FY2023    LTM Q4 2023
+Revenue ($M):               94.2      108.7      121.4        121.4
+EBITDA ($M):                78.1       91.3      103.7        103.7
+EBITDA Margin:             82.9%      84.0%      85.4%        85.4%
+Capex ($M):                (12.4)     (14.1)     (11.8)       (11.8)
+EBITDA – Capex:             65.7       77.2       91.9         91.9
+Interest Expense ($M):     (19.8)     (22.3)     (24.1)       (24.1)
+DSCR (EBITDA / Debt Svc):   3.6x       3.8x       4.0x         4.0x
+
+Pro Forma Leverage (post-transaction):
+  Total Debt:                          $280.0M
+  LTM EBITDA:                          $103.7M
+  Total Net Leverage:                   2.70x
+  Pro Forma DSCR (Year 1):              3.0x    (minimum covenant: 1.25x)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INVESTMENT THESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Contracted, Inflation-Protected Cash Flows: 98.4% of capacity is under TSAs with investment-grade counterparties (average counterparty rating: A–). All TSAs include annual CPI escalators (90% of CPI, subject to 2% floor and 4% cap), providing protection against inflation without introducing volume risk.
+
+2. Essential Infrastructure with High Barriers to Entry: FERC-regulated transmission is among the most capital-intensive and permitting-intensive infrastructure categories. New entrant competition is structurally limited. GIP's assets sit on established ERCOT and MISO transmission corridors where capacity is critically needed for renewable integration.
+
+3. Secular Tailwind from Energy Transition: The IRA (Inflation Reduction Act) is projected to drive $369 billion in clean energy investment over 10 years. Renewable generation capacity additions in ERCOT and MISO are accelerating, creating sustained demand for transmission infrastructure. GIP is positioned to capture incremental co-location and interconnection revenue.
+
+4. Conservative Leverage Profile: Pro forma net leverage of 2.70x is conservative relative to the 3.5x–4.5x typical for regulated utility infrastructure. Debt service coverage of 3.0x provides substantial headroom above the 1.25x covenant floor.
+
+5. Experienced Sponsorship: Hartwell Energy Capital has successfully financed and operated seven similar regulated transmission portfolios, all of which have maintained investment-grade credit profiles.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+KEY RISKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Regulatory Risk: FERC Order 1000 rules govern cost allocation for new transmission projects. Changes to regulatory methodology could affect the economics of the two new projects (Lone Star Wind Connector and High Plains Switchyard Expansion), which are in the permitting phase.
+
+2. Construction Execution Risk: The two new projects represent $94 million in incremental capex over FY2024–2025. Construction delays or cost overruns would reduce free cash flow during the build-out period. Mitigation: fixed-price EPC contracts with Strata Engineering (AA-rated) are in place for 87% of scope.
+
+3. Weather / Physical Risk: Extreme weather events (ice storms, hurricanes) can cause outages and damage to transmission infrastructure. Mitigation: GIP carries $800M in property and business interruption insurance; the 99.1% historical availability factor reflects the resilience of the asset base.
+
+4. Floating Rate Exposure: The term loan is priced at SOFR + 375 bps. At current rates, annual cash interest is approximately $22.4 million. GIP has entered into interest rate caps (5.5% strike on SOFR) on 80% of the notional for the first four years of the loan, limiting upside rate exposure.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CREDIT ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ATLAS Research assigns a POSITIVE credit view on the GIP term loan at SOFR + 375 bps. The contracted revenue profile, low leverage, strong DSCR, and essential-service nature of the assets support a credit profile consistent with a BB+/Ba1 rating in our estimation. The spread of +375 bps is attractive relative to the credit quality, offering approximately 75–100 bps of excess spread vs. similarly rated infrastructure credits in the syndicated market.
+
+We note that Meridian Capital Partners participated as a co-lender in this transaction with a $40 million commitment.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This analysis is for institutional investor use only. Atlas Research Group makes no warranty as to the accuracy of the information herein.
