@@ -6,6 +6,7 @@ langsmith>=0.1.125,<0.2.0  # 0.2.0+ requires zstandard which fails to build on P
 qdrant-client>=1.9.0
 openai>=1.30.0
 sentence-transformers>=3.0.0
+torchvision            # needed so Streamlit's watcher can introspect transformers image-processing submodules
 anthropic>=0.28.0
 streamlit>=1.35.0
 pyyaml>=6.0.1
