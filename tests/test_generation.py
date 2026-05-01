@@ -5,17 +5,16 @@ from src.generation.llm_client import LLMClient
 
 def _make_mock_response(answer_text="$412.7 million"):
     response = MagicMock()
-    response.content = [MagicMock(text=answer_text)]
-    response.usage.input_tokens = 500
-    response.usage.output_tokens = 50
-    response.usage.cache_creation_input_tokens = 480
-    response.usage.cache_read_input_tokens = 0
+    response.choices = [MagicMock()]
+    response.choices[0].message.content = answer_text
+    response.usage.prompt_tokens = 500
+    response.usage.completion_tokens = 50
     return response
 
 
-@patch("src.generation.llm_client.anthropic.Anthropic")
-def test_generate_returns_answer_and_usage(MockAnthropic):
-    MockAnthropic.return_value.messages.create.return_value = _make_mock_response()
+@patch("src.generation.llm_client.Groq")
+def test_generate_returns_answer_and_usage(MockGroq):
+    MockGroq.return_value.chat.completions.create.return_value = _make_mock_response()
 
     client = LLMClient()
     result = client.generate("What was revenue?", [{"text": "Revenue $412.7M", "source": "doc.txt"}])
@@ -25,61 +24,60 @@ def test_generate_returns_answer_and_usage(MockAnthropic):
     assert result["answer"] == "$412.7 million"
 
 
-@patch("src.generation.llm_client.anthropic.Anthropic")
-def test_generate_system_prompt_has_cache_control(MockAnthropic):
-    mock_create = MockAnthropic.return_value.messages.create
+@patch("src.generation.llm_client.Groq")
+def test_generate_system_prompt_sent(MockGroq):
+    mock_create = MockGroq.return_value.chat.completions.create
     mock_create.return_value = _make_mock_response()
 
     client = LLMClient()
     client.generate("question?", [{"text": "context", "source": "doc.txt"}])
 
     call_kwargs = mock_create.call_args.kwargs
-    system = call_kwargs["system"]
+    messages = call_kwargs["messages"]
 
-    assert isinstance(system, list)
-    assert len(system) == 1
-    assert system[0]["cache_control"] == {"type": "ephemeral"}
+    # System prompt must be first message with role "system"
+    assert messages[0]["role"] == "system"
+    assert len(messages[0]["content"]) > 0
 
 
-@patch("src.generation.llm_client.anthropic.Anthropic")
-def test_generate_context_block_has_cache_control_question_block_does_not(MockAnthropic):
-    mock_create = MockAnthropic.return_value.messages.create
+@patch("src.generation.llm_client.Groq")
+def test_generate_context_in_user_message(MockGroq):
+    mock_create = MockGroq.return_value.chat.completions.create
     mock_create.return_value = _make_mock_response()
 
     client = LLMClient()
     client.generate("What is revenue?", [{"text": "Revenue $412.7M", "source": "doc.txt"}])
 
     call_kwargs = mock_create.call_args.kwargs
-    content = call_kwargs["messages"][0]["content"]
+    messages = call_kwargs["messages"]
 
-    assert len(content) == 2
-    # First block = context: must have cache_control
-    assert content[0]["cache_control"] == {"type": "ephemeral"}
-    # Second block = question: must NOT have cache_control
-    assert "cache_control" not in content[1]
+    # User message must contain context and question
+    user_content = messages[1]["content"]
+    assert "Revenue $412.7M" in user_content
+    assert "What is revenue?" in user_content
 
 
-@patch("src.generation.llm_client.anthropic.Anthropic")
-def test_generate_question_appears_in_final_block(MockAnthropic):
-    mock_create = MockAnthropic.return_value.messages.create
+@patch("src.generation.llm_client.Groq")
+def test_generate_question_appears_in_user_message(MockGroq):
+    mock_create = MockGroq.return_value.chat.completions.create
     mock_create.return_value = _make_mock_response()
 
     client = LLMClient()
     client.generate("What is the net charge-off rate?", [{"text": "NCO: 1.42%", "source": "doc.txt"}])
 
     call_kwargs = mock_create.call_args.kwargs
-    content = call_kwargs["messages"][0]["content"]
-    question_block_text = content[1]["text"]
+    messages = call_kwargs["messages"]
+    user_content = messages[1]["content"]
 
-    assert "What is the net charge-off rate?" in question_block_text
+    assert "What is the net charge-off rate?" in user_content
 
 
-@patch("src.generation.llm_client.anthropic.Anthropic")
-def test_generate_usage_fields_present(MockAnthropic):
-    MockAnthropic.return_value.messages.create.return_value = _make_mock_response()
+@patch("src.generation.llm_client.Groq")
+def test_generate_usage_fields_present(MockGroq):
+    MockGroq.return_value.chat.completions.create.return_value = _make_mock_response()
 
     client = LLMClient()
     result = client.generate("q?", [{"text": "c", "source": "d.txt"}])
 
-    for key in ("input_tokens", "output_tokens", "cache_creation_input_tokens", "cache_read_input_tokens"):
+    for key in ("input_tokens", "output_tokens"):
         assert key in result["usage"]

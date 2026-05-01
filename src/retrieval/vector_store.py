@@ -7,8 +7,8 @@ from qdrant_client.models import Distance, PointStruct, VectorParams
 
 from src.utils import load_config
 
-# text-embedding-3-small output dimension
-VECTOR_DIM = 1536
+# all-MiniLM-L6-v2 output dimension
+VECTOR_DIM = 384
 
 
 class VectorStore:

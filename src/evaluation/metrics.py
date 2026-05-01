@@ -1,4 +1,4 @@
-import anthropic
+from groq import Groq
 
 
 def precision_at_k(retrieved_chunks: list[dict], relevant_chunk_texts: list[str]) -> float:
@@ -26,7 +26,7 @@ def recall_at_k(retrieved_chunks: list[dict], relevant_chunk_texts: list[str]) -
 def faithfulness_score(
     answer: str,
     context_chunks: list[dict],
-    client: anthropic.Anthropic,
+    client: Groq,
     model: str,
 ) -> float:
     context_text = "\n".join(c["text"] for c in context_chunks)
@@ -36,13 +36,13 @@ def faithfulness_score(
         "5=fully grounded in context with no hallucination. Return only the integer score.\n\n"
         f"CONTEXT:\n{context_text}\n\nANSWER:\n{answer}\n\nScore:"
     )
-    response = client.messages.create(
+    response = client.chat.completions.create(
         model=model,
         max_tokens=8,
         messages=[{"role": "user", "content": prompt}],
     )
     try:
-        return float(response.content[0].text.strip())
+        return float(response.choices[0].message.content.strip())
     except ValueError:
         return 0.0
 
@@ -50,7 +50,7 @@ def faithfulness_score(
 def answer_quality_score(
     answer: str,
     ground_truth: str,
-    client: anthropic.Anthropic,
+    client: Groq,
     model: str,
 ) -> float:
     prompt = (
@@ -59,12 +59,12 @@ def answer_quality_score(
         "Return only the integer score.\n\n"
         f"GROUND TRUTH:\n{ground_truth}\n\nANSWER:\n{answer}\n\nScore:"
     )
-    response = client.messages.create(
+    response = client.chat.completions.create(
         model=model,
         max_tokens=8,
         messages=[{"role": "user", "content": prompt}],
     )
     try:
-        return float(response.content[0].text.strip())
+        return float(response.choices[0].message.content.strip())
     except ValueError:
         return 0.0

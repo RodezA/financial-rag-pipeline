@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-import anthropic
+from groq import Groq
 
 from src.evaluation.metrics import (
     answer_quality_score,
@@ -22,7 +22,7 @@ def run_evaluation():
         qa_pairs = json.load(f)
 
     pipeline = RAGPipeline(use_reranker=True)
-    judge_client = anthropic.Anthropic()
+    judge_client = Groq()
     judge_model = cfg["generation"]["model"]
 
     results = []

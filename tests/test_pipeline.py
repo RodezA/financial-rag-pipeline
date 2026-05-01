@@ -1,15 +1,14 @@
 from unittest.mock import MagicMock, patch
+import numpy as np
 
 
 @patch("src.pipeline.LLMClient")
 @patch("src.pipeline.Reranker")
 @patch("src.pipeline.VectorStore")
-@patch("src.pipeline.OpenAI")
-def test_pipeline_query_returns_required_keys(MockOpenAI, MockVectorStore, MockReranker, MockLLM):
-    # OpenAI embedding stub
-    embed_response = MagicMock()
-    embed_response.data = [MagicMock(embedding=[0.1] * 1536)]
-    MockOpenAI.return_value.embeddings.create.return_value = embed_response
+@patch("src.pipeline.SentenceTransformer")
+def test_pipeline_query_returns_required_keys(MockSentenceTransformer, MockVectorStore, MockReranker, MockLLM):
+    # SentenceTransformer embedding stub (384-dim) — use numpy so .tolist() works
+    MockSentenceTransformer.return_value.encode.return_value = np.array([[0.1] * 384])
 
     # VectorStore stub
     chunks = [{"text": "Revenue $412.7M", "source": "novatech_q1_2024.txt", "chunk_id": 0, "score": 0.92}]
@@ -26,8 +25,6 @@ def test_pipeline_query_returns_required_keys(MockOpenAI, MockVectorStore, MockR
         "usage": {
             "input_tokens": 400,
             "output_tokens": 30,
-            "cache_creation_input_tokens": 380,
-            "cache_read_input_tokens": 0,
         },
     }
 
@@ -43,11 +40,9 @@ def test_pipeline_query_returns_required_keys(MockOpenAI, MockVectorStore, MockR
 @patch("src.pipeline.LLMClient")
 @patch("src.pipeline.Reranker")
 @patch("src.pipeline.VectorStore")
-@patch("src.pipeline.OpenAI")
-def test_pipeline_skips_reranker_when_disabled(MockOpenAI, MockVectorStore, MockReranker, MockLLM):
-    embed_response = MagicMock()
-    embed_response.data = [MagicMock(embedding=[0.1] * 1536)]
-    MockOpenAI.return_value.embeddings.create.return_value = embed_response
+@patch("src.pipeline.SentenceTransformer")
+def test_pipeline_skips_reranker_when_disabled(MockSentenceTransformer, MockVectorStore, MockReranker, MockLLM):
+    MockSentenceTransformer.return_value.encode.return_value = np.array([[0.1] * 384])
 
     chunks = [
         {"text": f"chunk {i}", "source": "doc.txt", "chunk_id": i, "score": 0.9 - i * 0.1}
@@ -56,7 +51,7 @@ def test_pipeline_skips_reranker_when_disabled(MockOpenAI, MockVectorStore, Mock
     MockVectorStore.return_value.similarity_search.return_value = chunks
     MockLLM.return_value.generate.return_value = {
         "answer": "answer",
-        "usage": {"input_tokens": 10, "output_tokens": 5, "cache_creation_input_tokens": 0, "cache_read_input_tokens": 0},
+        "usage": {"input_tokens": 10, "output_tokens": 5},
     }
 
     from src.pipeline import RAGPipeline
@@ -70,17 +65,15 @@ def test_pipeline_skips_reranker_when_disabled(MockOpenAI, MockVectorStore, Mock
 @patch("src.pipeline.LLMClient")
 @patch("src.pipeline.Reranker")
 @patch("src.pipeline.VectorStore")
-@patch("src.pipeline.OpenAI")
-def test_pipeline_latency_ms_is_positive(MockOpenAI, MockVectorStore, MockReranker, MockLLM):
-    embed_response = MagicMock()
-    embed_response.data = [MagicMock(embedding=[0.1] * 1536)]
-    MockOpenAI.return_value.embeddings.create.return_value = embed_response
+@patch("src.pipeline.SentenceTransformer")
+def test_pipeline_latency_ms_is_positive(MockSentenceTransformer, MockVectorStore, MockReranker, MockLLM):
+    MockSentenceTransformer.return_value.encode.return_value = np.array([[0.1] * 384])
     MockVectorStore.return_value.similarity_search.return_value = []
     MockReranker.return_value.rerank.return_value = []
     MockReranker.return_value.top_k = 4
     MockLLM.return_value.generate.return_value = {
         "answer": "answer",
-        "usage": {"input_tokens": 10, "output_tokens": 5, "cache_creation_input_tokens": 0, "cache_read_input_tokens": 0},
+        "usage": {"input_tokens": 10, "output_tokens": 5},
     }
 
     from src.pipeline import RAGPipeline

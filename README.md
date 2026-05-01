@@ -6,6 +6,8 @@ A production-grade Retrieval-Augmented Generation (RAG) pipeline over synthetic 
 
 **Live demo:** [financial-rag-pipeline-4qwekobbbnuvmeyhvaq7bu.streamlit.app](https://financial-rag-pipeline-4qwekobbbnuvmeyhvaq7bu.streamlit.app)
 
+> **Free to run:** embeddings use a local CPU model (`all-MiniLM-L6-v2`) and generation uses Groq's free tier (`llama-3.3-70b-versatile`). The only API key required is a free Groq key — no OpenAI or Anthropic account needed.
+
 ---
 
 ## What is RAG?
@@ -32,13 +34,13 @@ flowchart TD
     subgraph ingest["🗂️ Ingestion  (runs once)"]
         direction TB
         A[📄 Financial Documents] --> B[Chunker\n800-token windows\n150-token overlap]
-        B --> C[OpenAI Embeddings\ntext-embedding-3-small]
+        B --> C[Local Embeddings\nall-MiniLM-L6-v2]
         C --> D[(🗄️ Qdrant\nVector Database)]
     end
 
     subgraph query["💬 Query  (runs per question)"]
         direction TB
-        E[🙋 User Question] --> F[Embed question\ntext-embedding-3-small]
+        E[🙋 User Question] --> F[Embed question\nall-MiniLM-L6-v2]
         F --> G[Vector Search\nTop 10 candidates]
         D --> G
         G --> H[Cross-Encoder Reranker\nRe-scores and keeps Top 4]
@@ -68,7 +70,7 @@ flowchart TD
 
 | Layer | Technology |
 |---|---|
-| Embeddings | OpenAI `text-embedding-3-small` |
+| Embeddings | `all-MiniLM-L6-v2` (local, CPU, no API key) |
 | Vector DB | Qdrant (local Docker or Qdrant Cloud) |
 | Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2` |
 | Generation | Groq `llama-3.3-70b-versatile` (free tier) |
@@ -134,9 +136,7 @@ rag_pipeline/
 
 - Python 3.9+
 - Docker Desktop (for local Qdrant)
-- API keys: `OPENAI_API_KEY` and `GROQ_API_KEY`
-
-Get a free Groq API key at [console.groq.com](https://console.groq.com) — no credit card required.
+- API key: `GROQ_API_KEY` (free — [console.groq.com](https://console.groq.com))
 
 ### 1. Install dependencies
 
@@ -147,7 +147,6 @@ pip install -r requirements.txt
 ### 2. Set API keys
 
 ```bash
-export OPENAI_API_KEY="sk-proj-..."
 export GROQ_API_KEY="gsk_..."
 ```
 
@@ -184,7 +183,7 @@ All model and infrastructure choices live in `config/config.yaml` — nothing is
 
 ```yaml
 embedding:
-  model: "text-embedding-3-small"
+  model: "all-MiniLM-L6-v2"
 
 retrieval:
   top_k: 10
@@ -196,15 +195,6 @@ reranking:
 generation:
   model: "llama-3.3-70b-versatile"
 ```
-
-### No OpenAI key? Use a local embedding model
-
-Swap `text-embedding-3-small` for `all-MiniLM-L6-v2` (runs on CPU, no API key):
-
-1. Set `embedding.model: "all-MiniLM-L6-v2"` in `config/config.yaml`
-2. In `src/ingestion/embedder.py` and `src/pipeline.py`, replace OpenAI embedding calls with `SentenceTransformer("all-MiniLM-L6-v2").encode(texts)`
-3. In `src/retrieval/vector_store.py`, change `VECTOR_DIM` from `1536` to `384`
-4. Re-run ingestion to rebuild the collection
 
 ### Qdrant Cloud vs local Docker
 

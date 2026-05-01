@@ -1,6 +1,6 @@
 import time
 
-from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 
 from src.generation.llm_client import LLMClient
 from src.reranking.reranker import Reranker
@@ -16,7 +16,7 @@ class RAGPipeline:
         self.top_k_final = cfg["reranking"]["top_k_after_rerank"]
         self.embedding_model = cfg["embedding"]["model"]
 
-        self._openai = OpenAI()
+        self._embedder = SentenceTransformer(self.embedding_model)
         self.vector_store = VectorStore()
         self.reranker = Reranker() if use_reranker else None
         self.llm = LLMClient()
@@ -44,7 +44,4 @@ class RAGPipeline:
         }
 
     def _embed_query(self, text: str) -> list[float]:
-        response = self._openai.embeddings.create(
-            model=self.embedding_model, input=[text]
-        )
-        return response.data[0].embedding
+        return self._embedder.encode([text])[0].tolist()

@@ -1,10 +1,8 @@
 numpy<2                # torch/sklearn compiled against numpy 1.x
 langchain>=0.2.0,<0.4.0
 langchain-community>=0.2.0,<0.4.0
-langchain-openai>=0.1.0
 langsmith>=0.1.125,<0.2.0  # 0.2.0+ requires zstandard which fails to build on Python 3.14
 qdrant-client>=1.9.0
-openai>=1.30.0
 sentence-transformers>=3.0.0
 torchvision            # needed so Streamlit's watcher can introspect transformers image-processing submodules
 groq>=0.4.0

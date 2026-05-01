@@ -8,7 +8,7 @@ qdrant:
   # api_key read from QDRANT_API_KEY env var — never hardcode here
 
 embedding:
-  model: "text-embedding-3-small"
+  model: "all-MiniLM-L6-v2"
   batch_size: 32
 
 chunking:
