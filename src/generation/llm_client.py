@@ -1,4 +1,4 @@
-import anthropic
+from groq import Groq
 
 from src.utils import load_config
 
@@ -36,51 +36,29 @@ class LLMClient:
         self.model = gen["model"]
         self.max_tokens = gen["max_tokens"]
         self.temperature = gen["temperature"]
-        self.client = anthropic.Anthropic()
+        self.client = Groq()
 
     def generate(self, query: str, context_chunks: list[dict]) -> dict:
         context_text = self._format_context(context_chunks)
 
-        response = self.client.messages.create(
+        response = self.client.chat.completions.create(
             model=self.model,
             max_tokens=self.max_tokens,
             temperature=self.temperature,
-            system=[
-                {
-                    "type": "text",
-                    "text": SYSTEM_PROMPT,
-                    "cache_control": {"type": "ephemeral"},
-                }
-            ],
             messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
                 {
                     "role": "user",
-                    "content": [
-                        {
-                            "type": "text",
-                            "text": context_text,
-                            "cache_control": {"type": "ephemeral"},
-                        },
-                        {
-                            "type": "text",
-                            "text": f"Question: {query}\n\nAnswer:",
-                        },
-                    ],
-                }
+                    "content": f"{context_text}\n\nQuestion: {query}\n\nAnswer:",
+                },
             ],
         )
 
         return {
-            "answer": response.content[0].text,
+            "answer": response.choices[0].message.content,
             "usage": {
-                "input_tokens": response.usage.input_tokens,
-                "output_tokens": response.usage.output_tokens,
-                "cache_creation_input_tokens": getattr(
-                    response.usage, "cache_creation_input_tokens", 0
-                ),
-                "cache_read_input_tokens": getattr(
-                    response.usage, "cache_read_input_tokens", 0
-                ),
+                "input_tokens": response.usage.prompt_tokens,
+                "output_tokens": response.usage.completion_tokens,
             },
         }
 

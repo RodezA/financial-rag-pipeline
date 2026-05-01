@@ -23,7 +23,7 @@ reranking:
   top_k_after_rerank: 4
 
 generation:
-  model: "claude-sonnet-4-6"
+  model: "llama-3.3-70b-versatile"
   max_tokens: 1024
   temperature: 0.0
 

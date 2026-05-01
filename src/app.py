@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import streamlit as st
 
-for _key in ("OPENAI_API_KEY", "ANTHROPIC_API_KEY", "QDRANT_API_KEY"):
+for _key in ("OPENAI_API_KEY", "GROQ_API_KEY", "QDRANT_API_KEY"):
     if _key in st.secrets and not os.environ.get(_key):
         os.environ[_key] = st.secrets[_key]
 
@@ -14,30 +14,14 @@ from src.pipeline import RAGPipeline
 st.set_page_config(page_title="Financial RAG", layout="wide")
 
 
-def check_password() -> bool:
-    if st.session_state.get("authenticated"):
-        return True
-    pwd = st.text_input("Password", type="password", key="password_input")
-    if st.button("Enter"):
-        if pwd == st.secrets["APP_PASSWORD"]:
-            st.session_state.authenticated = True
-            st.rerun()
-        else:
-            st.error("Incorrect password.")
-    return False
-
-
-if not check_password():
-    st.stop()
-
 st.title("Financial Document Assistant")
-st.caption("Grounded answers from synthetic financial documents — RAG + Claude")
+st.caption("Grounded answers from synthetic financial documents — RAG + Llama 3.3")
 
 with st.sidebar:
     st.header("Pipeline Settings")
     use_reranker = st.toggle("Enable reranker", value=True)
     st.markdown("---")
-    st.markdown("**Model:** claude-sonnet-4-6")
+    st.markdown("**Model:** llama-3.3-70b-versatile")
     st.markdown("**Embeddings:** text-embedding-3-small")
     st.markdown("**Reranker:** ms-marco-MiniLM-L-6-v2")
     st.markdown("**Vector DB:** Qdrant")
@@ -84,11 +68,10 @@ if question:
 
         st.write(result["answer"])
 
-        col1, col2, col3, col4 = st.columns(4)
+        col1, col2, col3 = st.columns(3)
         col1.metric("Latency", f"{result['latency_ms']:.0f}ms")
         col2.metric("Input tokens", result["token_usage"]["input_tokens"])
-        col3.metric("Cache created", result["token_usage"]["cache_creation_input_tokens"])
-        col4.metric("Cache read", result["token_usage"]["cache_read_input_tokens"])
+        col3.metric("Output tokens", result["token_usage"]["output_tokens"])
 
         with st.expander(f"Sources ({len(result['source_docs'])} chunks)"):
             for i, chunk in enumerate(result["source_docs"]):
