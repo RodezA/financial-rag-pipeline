@@ -78,6 +78,18 @@ flowchart TD
 | UI | Streamlit |
 | Config | YAML-driven — no hardcoded model or DB choices |
 
+### How LangChain is used
+
+LangChain handles three specific jobs in the ingestion pipeline — everything else is custom:
+
+| Component | LangChain class | Role |
+|---|---|---|
+| Document loading | `TextLoader` (langchain-community) | Reads raw `.txt` financial documents from disk into `Document` objects |
+| Text splitting | `RecursiveCharacterTextSplitter` | Splits documents into 800-token overlapping chunks using a hierarchy of separators (paragraphs → sentences → words) |
+| Shared schema | `langchain.schema.Document` | Acts as the common data structure passed between the loader, chunker, embedder, and vector store |
+
+The retrieval, reranking, generation, and evaluation stages are all custom — LangChain is intentionally scoped to the ingestion layer so those components stay swappable without touching the rest of the pipeline.
+
 ---
 
 ## Evaluation Results
