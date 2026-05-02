@@ -8,6 +8,22 @@ A demo-grade Retrieval-Augmented Generation (RAG) pipeline over synthetic financ
 
 > **Free to run:** embeddings use a local CPU model (`all-MiniLM-L6-v2`) and generation uses Groq's free tier (`llama-3.3-70b-versatile`). The only API key required is a free Groq key — no OpenAI or Anthropic account needed.
 
+### Why this matters
+
+RAG is one of the highest-leverage patterns in applied AI. It takes a general-purpose language model — trained on the internet, knowing nothing about your business — and grounds it in your private knowledge in minutes. The result is answers that are accurate, citable, and scoped to what you actually know, rather than what a model vaguely remembers from training data.
+
+What makes this pipeline powerful is that every component is measurable and swappable. The evaluation harness means you can change the embedding model, swap the LLM, tune chunk sizes, or enable/disable the reranker — and immediately see the effect on precision, recall, and faithfulness. Most RAG demos skip this entirely. This one makes it the center of the architecture.
+
+The pattern here is domain-agnostic. The same pipeline, pointed at a different document set, becomes:
+
+- **Legal** — contract search and clause extraction across thousands of agreements
+- **Healthcare** — clinical guideline retrieval grounded in your specific protocols
+- **Internal ops** — an always-accurate knowledge base over wikis, runbooks, and incident reports
+- **Customer support** — answers drawn from your actual product documentation, not a hallucinated approximation of it
+- **Research** — literature review over private datasets, with full source citations
+
+The financial domain is just the example. The architecture is the point.
+
 ---
 
 ## What is RAG?
