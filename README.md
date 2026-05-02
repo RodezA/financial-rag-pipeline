@@ -1,6 +1,6 @@
 # Financial RAG Pipeline
 
-A production-grade Retrieval-Augmented Generation (RAG) pipeline over synthetic financial documents, built as a reference architecture demonstrating best practices across the full RAG stack. Every pipeline run is measurable via a built-in evaluation harness.
+A demo-grade Retrieval-Augmented Generation (RAG) pipeline over synthetic financial documents, built as a reference architecture for learning and experimentation. Every pipeline run is measurable via a built-in evaluation harness.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://financial-rag-pipeline-4qwekobbbnuvmeyhvaq7bu.streamlit.app)
 
