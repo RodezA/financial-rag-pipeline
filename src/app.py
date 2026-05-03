@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import streamlit as st
 from qdrant_client.http.exceptions import ResponseHandlingException, UnexpectedResponse
 
-for _key in ("GROQ_API_KEY", "QDRANT_API_KEY"):
+for _key in ("GROQ_API_KEY", "QDRANT_API_KEY", "QDRANT_URL"):
     if _key in st.secrets and not os.environ.get(_key):
         os.environ[_key] = st.secrets[_key]
 
