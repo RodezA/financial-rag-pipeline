@@ -4,6 +4,7 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import streamlit as st
+from qdrant_client.http.exceptions import ResponseHandlingException, UnexpectedResponse
 
 for _key in ("GROQ_API_KEY", "QDRANT_API_KEY"):
     if _key in st.secrets and not os.environ.get(_key):
@@ -64,7 +65,15 @@ if question:
 
     with st.chat_message("assistant"):
         with st.spinner("Querying..."):
-            result = pipeline.query(question)
+            try:
+                result = pipeline.query(question)
+            except (ResponseHandlingException, UnexpectedResponse) as e:
+                st.error(
+                    "Could not reach the Qdrant vector database. "
+                    "The cluster may be paused — log into [cloud.qdrant.io](https://cloud.qdrant.io) "
+                    "and resume it, then retry."
+                )
+                st.stop()
 
         st.write(result["answer"])
 
