@@ -16,9 +16,10 @@ class VectorStore:
         cfg = load_config()
         qcfg = cfg["qdrant"]
         api_key = os.environ.get("QDRANT_API_KEY")
+        url = os.environ.get("QDRANT_URL") or qcfg.get("url")
 
-        if qcfg.get("url"):
-            self.client = QdrantClient(url=qcfg["url"], api_key=api_key)
+        if url:
+            self.client = QdrantClient(url=url, api_key=api_key)
         else:
             self.client = QdrantClient(host=qcfg["host"], port=qcfg["port"])
 
