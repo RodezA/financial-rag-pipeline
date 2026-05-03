@@ -1,7 +1,7 @@
 qdrant:
   # For local Docker: set url to null and provide host/port
-  # For Qdrant Cloud: set url to your cluster URL, leave host/port null
-  url: "https://35d44eb1-42f1-4450-894d-6b94066cc98e.eu-west-1-0.aws.cloud.qdrant.io"
+  # For Qdrant Cloud: set QDRANT_URL env var (or Streamlit secret) — never hardcode here
+  url: null
   host: null
   port: null
   collection_name: "financial_docs"
